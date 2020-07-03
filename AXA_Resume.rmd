@@ -10,7 +10,7 @@ github: /alejandroxag
 linkedin: /alejandroxag
 # date: 
 # aboutme: "\"There is a crack in everything, that's how the light gets in\". Leonard Cohen. \"Anthem\". The Future, 1992."
-headcolor: 207c90
+headcolor: 117c8d
 docname: résumé
 output: vitae::awesomecv
 ---
