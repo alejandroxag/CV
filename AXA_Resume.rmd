@@ -4,11 +4,10 @@ surname: Álvarez
 # position: 
 # address: 
 phone: +52 55 3326 4566
-# www: 
 email: "axa@andrew.cmu.edu / alejandro.alvarez.1804@gmail.com"
 github: /alejandroxag
 linkedin: /alejandroxag
-# date: 
+date: 
 # aboutme: "\"There is a crack in everything, that's how the light gets in\". Leonard Cohen. \"Anthem\". The Future, 1992."
 headcolor: 117c8d
 docname: résumé
@@ -31,8 +30,6 @@ options(tinytex.verbose = TRUE)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where, ~Why,
   
-  "Master of Information Systems Management - Business Intelligence and Data Analytics", "December 2021 (expected)", "Carnegie Mellon University, Heinz College", "Pittsburgh, PA", "Candidate, Class 2021.",
-  
   "Master of Information Systems Management - Business Intelligence and Data Analytics", "December 2021 (expected)", "Carnegie Mellon University, Heinz College", "Pittsburgh, PA", "Core Coursework (Fall 2020 - Spring 2021): Database Management, Object-Oriented Programming, Unstructured Data Analytics, Statistics for IT Managers.",
   
   "Bachelor of Science in Applied Mathematics",
@@ -44,7 +41,7 @@ tribble(
   "Bachelor of Science in Applied Mathematics",
   "October 2015", "Instituto Tecnológico Autónomo de México", "Mexico City, Mexico", "Leadership: Adjunct Faculty Member of the Probability and Statistics Department (Spring 2015); Adjunct Faculty Member of the Mathematics Department (Spring 2013 - Fall 2014).",
   
-  "Bachelor of Arts in Economics - Economic Theory", "July 2015. Pending graduation", "", "", "Coursework: Consumer and Producer Theory, General Equilibrium Theory, Game Theory, Macroeconomics (General Equilibrium), Dynamic Macroeconomics. TA for Industrial Organization.",
+  "Bachelor of Arts in Economics - Economic Theory", "July 2015. Pending graduation", "", "", "Coursework: Consumer and Producer Theory, General Equilibrium Theory, Game Theory, Dynamic Macroeconomics.",
 
 ) %>%
   detailed_entries(Degree, Year, Institution, Where, Why)
@@ -58,9 +55,9 @@ tribble(
 tribble(
   ~Project, ~When, ~Institution, ~Space1, ~What,
 
-  "Economic spillover of an important drink manufacturer", "2019", "SAI Law & Economics", "", "Gathered information of sales, employees and supplies purchases of 11 companies in 32 states in Mexico. Designed a relational database to store the gathered information. Developed an internal R package to implement Input-Output methodologies. Delivered results through an R Bookdown.",
+  "Economic spillover of an important drink manufacturer", "2019", "SAI Law & Economics", "", "Gathered information of sales, employees and supplies purchases of 11 companies in 32 states in Mexico. Designed a relational database to store gathered information. Developed an internal R package to implement Input-Output methodologies. Delivered through an R Bookdown.",
 
-  "Upgrade of analytics' tools", "2016 - 2019", "", "", "Led and implemented the switch of the analytics' tools of the Economic Consulting Team, from 100% MS Excel usage to 100% R usage.",
+  "Upgrade of analytics' tools", "2016 - 2019", "", "", "Led and implemented Economic Consulting Team's toolbox switch, from 100% MS Excel usage to 100% R usage, which allowed the firm and the team to take high-profile projects which otherwise wouldn't have took. Actively trained firm's Partners, Junior Associates, and Analysts, in the usage of R Programming Language. Self-taught to programming with R.",
 
   "Pharmaceutical inventories' optimization", "Summer 2015", "University of Pittsburgh Medical Center - Carnegie Mellon University", "", "Developed a predictive algorithm to optimize pharmaceutical inventories from hospitals, based on the patients' flow.",
 
@@ -76,9 +73,9 @@ tribble(
 tribble(
   ~Skill, ~Space1, ~Space2, ~Space3, ~What,
 
-  "Programming", "", "", "", "R (package development with devtools), Java (and Git for version control).",
-  "Database management, Statistical Analysis and Data visualization", "", "", "", "R (tidyverse, shiny, plotly), SQL (MySQL).",
-  "Reproducible documents", "", "", "", "R (Markdown, Bookdown)",
+  "Programming", "", "", "", "Python, Java, R (package development with devtools), and Git for version control. Notions of Julia, C++, PowerShell, Kotlin, Swift, Go, Ruby.",
+  "Database management, Statistical Analysis and Data visualization", "", "", "", "R, Python, SQL (MySQL), Stan.",
+  "Reproducible documents", "", "", "", "R Markdown, Jupyter, LaTeX, HTML, CSS, XML.",
   
   
 ) %>%
@@ -93,11 +90,11 @@ tribble(
 tribble(
   ~Position, ~When, ~Where, ~Institution, ~What,
 
-  "Senior Associate", "July 2016 - July 2020", "SAI Law & Economics - Economic Consulting Team","Mexico City, Mexico","Team Manager, Strategic Planning, Project Manager, Statistical Analysis, Data visualization, Database Design, Economic analysis.",
-  "Senior Associate", "July 2016 - July 2020", "SAI Law & Economics - Economic Consulting Team","Mexico City, Mexico","Promoted less than a year before the previous promotion. Senior Associate with the highest tenure in the firm since 2017.",
-  "Junior Associate", "October 2015 - June 2016", "","","Project Management, Data Cleansing and Visualization, Statistical Analysis, Economic analysis.",
-  "Junior Associate", "October 2015 - June 2016", "","","Promoted immediately after graduation.",
-  "Full-time Economic Analyst", "June 2014 - September 2015", "","","Data Cleansing, Analysis and Visualization, Statistical Analysis, Economic Analysis.",
+  "Senior Associate", "July 2016 - July 2020", "SAI Law & Economics - Economic Consulting Team","Mexico City, Mexico","Directly managed +50 projects, in charge of their strategic and methodological planning, and their technical execution (Statistical Analysis, Data visualization, Database Design, Economic analysis). Participated in +100 projects for +100 clients. Billed +1.1 Million USD. Coordinated the JA's and BA's team. Senior Associate with the highest tenure in the firm since 2017, and with the shortest period as Junior Associate in firm's history.",
+  
+  "Junior Associate", "October 2015 - June 2016", "","","Managed +10 projects and participated in +20 projects. Supervised and improved teams' usage of tools and technics for data cleansing and visualization, and statistical and economic analysis. Immediately promoted after graduation.",
+  
+  "Full-time Economic Analyst", "June 2014 - September 2015", "","","Participated in +30 projects. Pioneered the use of R Programming Language.",
   
 
 ) %>%
