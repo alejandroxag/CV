@@ -3,8 +3,8 @@ name: Alejandro
 surname: Álvarez
 # position: 
 # address: 
-phone: +52 55 3326 4566
-email: "axa@andrew.cmu.edu / alejandro.alvarez.1804@gmail.com"
+phone: +1 412 509 7161
+email: "axa@andrew.cmu.edu"
 github: /alejandroxag
 linkedin: /alejandroxag
 date: 
@@ -32,14 +32,14 @@ tribble(
   
   "Master of Information Systems Management - Business Intelligence and Data Analytics", "December 2021 (expected)", "Carnegie Mellon University, Heinz College", "Pittsburgh, PA", "Core Coursework (Fall 2020 - Spring 2021): Database Management, Object-Oriented Programming, Unstructured Data Analytics, Statistics for IT Managers.",
   
-  "Bachelor of Science in Applied Mathematics",
-  "October 2015", "Instituto Tecnológico Autónomo de México", "Mexico City, Mexico", "Graduated with honors. Thesis work: \"Random Variants of the Kaczmarz Method\", 2015.",
+  "Bachelor of Science in Applied Mathematics (graduated with honors)",
+  "October 2015", "Instituto Tecnológico Autónomo de México", "Mexico City, Mexico", "Thesis work: \"Random Variants of the Kaczmarz Method\", 2015.",
   
-  "Bachelor of Science in Applied Mathematics",
+  "Bachelor of Science in Applied Mathematics (graduated with honors)",
   "October 2015", "Instituto Tecnológico Autónomo de México", "Mexico City, Mexico", "Coursework: Numerical Analysis, Linear Programming, Numerical Optimization, Applied Statistics, Linear Algebra, Real Analysis, Functional Analysis, Measure Theory; Applied Data Science Workshop at Carnegie Mellon University (Fall 2015).",
   
-  "Bachelor of Science in Applied Mathematics",
-  "October 2015", "Instituto Tecnológico Autónomo de México", "Mexico City, Mexico", "Leadership: Adjunct Faculty Member of the Probability and Statistics Department (Spring 2015); Adjunct Faculty Member of the Mathematics Department (Spring 2013 - Fall 2014).",
+  "Bachelor of Science in Applied Mathematics (graduated with honors)",
+  "October 2015", "Instituto Tecnológico Autónomo de México", "Mexico City, Mexico", "Adjunct Faculty Member of the Probability and Statistics Department (Spring 2015) and the Mathematics Department (Spring 2013 - Fall 2014).",
   
   "Bachelor of Arts in Economics - Economic Theory", "July 2015. Pending graduation", "", "", "Coursework: Consumer and Producer Theory, General Equilibrium Theory, Game Theory, Dynamic Macroeconomics.",
 
@@ -55,11 +55,11 @@ tribble(
 tribble(
   ~Project, ~When, ~Institution, ~Space1, ~What,
 
-  "Economic spillover of an important drink manufacturer", "2019", "SAI Law & Economics", "", "Gathered information of sales, employees and supplies purchases of 11 companies in 32 states in Mexico. Designed a relational database to store gathered information. Developed an internal R package to implement Input-Output methodologies. Delivered through an R Bookdown.",
+  "Economic spillover of an important drink manufacturer", "2019", "SAI Law & Economics", "", "Gathered information of sales, employees and supplies purchases by product of 11 companies in 32 states in Mexico. Designed a relational database to store such information. Developed an R package to implement Input-Output methodologies. Delivered through an R Bookdown.",
 
-  "Upgrade of analytics' tools", "2016 - 2019", "", "", "Led and implemented Economic Consulting Team's toolbox switch, from 100% MS Excel usage to 100% R usage, which allowed the firm and the team to take high-profile projects which otherwise wouldn't have took. Actively trained firm's Partners, Junior Associates, and Analysts, in the usage of R Programming Language. Self-taught to programming with R.",
+  "Upgrade of analytics' tools", "2016 - 2019", "", "", "Led and implemented Economic Consulting Team's toolbox migration, from 100% MS Excel usage to 100% R usage, which allowed the firm and the team to take high-profile projects which otherwise wouldn't have took. Actively trained firm's Partners, Junior Associates, and Analysts, in the usage of R Programming Language. Self-taught to programming with R.",
 
-  "Pharmaceutical inventories' optimization", "Summer 2015", "University of Pittsburgh Medical Center - Carnegie Mellon University", "", "Developed a predictive algorithm to optimize pharmaceutical inventories from hospitals, based on the patients' flow.",
+  "Pharmaceutical inventories' optimization - Team Capstone Project", "Summer 2015", "UPMC Enterprises - Carnegie Mellon University", "", "Developed a predictive algorithm with Python to make projections about the drugs needed to be purchased, based on the patients' visits and medical records, which consisted in estimating multivariate distributions to find the optimal quantities in terms of a loss function.",
 
 ) %>%
   detailed_entries(Project, When, Institution, Space1, What)
@@ -73,9 +73,9 @@ tribble(
 tribble(
   ~Skill, ~Space1, ~Space2, ~Space3, ~What,
 
-  "Programming", "", "", "", "Python, Java, R (package development with devtools), and Git for version control. Notions of Julia, C++, PowerShell, Kotlin, Swift, Go, Ruby.",
-  "Database management, Statistical Analysis and Data visualization", "", "", "", "R, Python, SQL (MySQL), Stan.",
-  "Reproducible documents", "", "", "", "R Markdown, Jupyter, LaTeX, HTML, CSS, XML.",
+  "Programming", "", "", "", "Python, Java, R (package development with devtools), and Git for version control.",
+  "Database management, Statistical Analysis and Data visualization", "", "", "", "R, Python, SQL (MySQL).",
+  "Reproducible documents", "", "", "", "R Markdown, Jupyter, LaTeX. Notions of HTML, CSS, XML.",
   
   
 ) %>%
