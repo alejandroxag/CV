@@ -41,7 +41,7 @@ tribble(
   "Bachelor of Science in Applied Mathematics (graduated with honors)",
   "October 2015", "Instituto Tecnológico Autónomo de México", "Mexico City, Mexico", "Adjunct Faculty Member of the Probability and Statistics Department (Spring 2015) and the Mathematics Department (Spring 2013 - Fall 2014).",
   
-  "Bachelor of Arts in Economics - Economic Theory", "July 2015. Pending graduation", "", "", "Coursework: Consumer and Producer Theory, General Equilibrium Theory, Game Theory, Dynamic Macroeconomics.",
+  "Bachelor of Arts in Economics - Economic Theory", "July 2015. Pending graduation", "", "", "Coursework: Advanced Microeconometrics, Advanced Macroeconometrics, Consumer Theory, General Equilibrium Theory, Game Theory.",
   
 ) %>%
   detailed_entries(Degree, Year, Institution, Where, Why)
@@ -61,7 +61,7 @@ tribble(
   
   "Impact assessment of a children's meal centers program on their education.", "2018", "", "", "Worked with the program's information and public information from the Mexican Population Census to create control groups through a propensity score matching methodology, and measure the difference in school attendance rates.",
   
-  "Upgrade of analytics' tools", "2016 - 2019", "", "", "Led and implemented Economic Consulting Team's toolbox migration, from 100% Excel usage to 100% R usage, which allowed the firm and the team to take high-profile projects which otherwise wouldn't have took. Actively trained firm's Partners, Junior Associates, and Analysts, in the usage of R Programming Language. Shifted from Sharepoint to Git as my team's main version control tool. Self-taught to programming with R and to using Git.",
+  "Upgrade of analytics' tools", "2016 - 2019", "", "", "Led and implemented Economic Consulting Team's toolbox migration, from 100% Excel usage to 100% R usage, which allowed the firm and the team to take high-profile projects which otherwise wouldn't have took. Actively trained firm's Partners, Junior Associates, and Analysts, in the usage of R Programming Language. Shifted from Sharepoint to Git as my team's main version control tool. Self-taught to programming with R and using Git.",
   
   "Pharmaceutical inventories' optimization - Team Capstone Project", "Summer 2015", "UPMC Enterprises - Carnegie Mellon University", "", "Developed a predictive algorithm with Python to make projections about the drugs needed to be purchased, based on the patients' visits and medical records, which consisted in estimating multivariate distributions to find the optimal quantities in terms of a loss function.",
   
