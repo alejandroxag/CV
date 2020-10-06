@@ -55,11 +55,11 @@ tribble(
 tribble(
   ~Project, ~When, ~Institution, ~Space1, ~What,
   
-  "Impact assessment of a student loans program to attend graduate school abroad", "2020", "SAI Law & Economics", "", "Designed and coducted an extensive electronic survey among the historical beneficiaries of the program. Managed the data gathering and cleansing process. Conducted the econometric analysis to assess the profiles on which the program had more impact.",
+  "Impact assessment of a student loans program to attend graduate school abroad", "2020", "SAI Law & Economics", "", "Designed and conducted an extensive electronic survey among the historical beneficiaries of the program. Managed the data gathering and cleansing process. Conducted the econometric analysis to assess the profiles on which the program had more impact.",
   
   "Economic spillover of an important drink manufacturer", "2019", "", "", "Gathered information of sales, employees and supplies purchases by product of 11 companies in 32 states in Mexico. Designed a relational database to store such information. Developed an R package to implement Input-Output methodologies. Delivered through an R Bookdown.",
   
-  "Impact assessment of a children's meal centers program on their education.", "2018", "", "", "Worked with the program's information and public information from the Mexican Population Census to create control groups through a propensity score matching methodology, and measure the difference in school attendance rates.",
+  "Impact assessment of a children's meal centers program on their education.", "2018", "", "", "Worked with the program's information and public information from the Mexican Population Census to create control groups through a propensity score matching methodology and measure the difference in school attendance rates.",
   
   "Upgrade of analytics' tools", "2016 - 2019", "", "", "Led and implemented Economic Consulting Team's toolbox migration, from 100% Excel usage to 100% R usage, which allowed the firm and the team to take high-profile projects which otherwise wouldn't have took. Actively trained firm's Partners, Junior Associates, and Analysts, in the usage of R Programming Language. Shifted from Sharepoint to Git as my team's main version control tool. Self-taught to programming with R and using Git.",
   
