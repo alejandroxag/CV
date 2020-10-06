@@ -30,10 +30,10 @@ options(tinytex.verbose = TRUE)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where, ~Why,
   
-  "Master of Information Systems Management - Business Intelligence and Data Analytics", "December 2021 (expected)", "Carnegie Mellon University, Heinz College", "Pittsburgh, PA", "Core Coursework (Fall 2020 - Spring 2021): Database Management, Object-Oriented Programming, Unstructured Data Analytics, Statistics for IT Managers.",
+  "Master of Information Systems Management - Business Intelligence and Data Analytics", "December 2021 (expected)", "Carnegie Mellon University, Heinz College", "Pittsburgh, PA", "Core Coursework (Fall 2020 - Spring 2021): Object-Oriented Programming, Machine Learning for Problem Solving, Distributed Systems for ISM, Database Management, Unstructured Data Analytics, Applied Econometrics, Advanced Business Analytics, Writing for ISM.",
   
   "Bachelor of Science in Applied Mathematics (graduated with honors)",
-  "October 2015", "Instituto Tecnológico Autónomo de México", "Mexico City, Mexico", "Thesis work: \"Random Variants of the Kaczmarz Method\", 2015.",
+  "October 2015", "Instituto Tecnológico Autónomo de México", "Mexico City, Mexico", "Thesis work: \"Random Variants of the Kaczmarz Method\", 2015. Independent and individual study focused on the theoretical background and computational efficiency behind two of the random variants of the algorithm to numerically solve linear systems.",
   
   "Bachelor of Science in Applied Mathematics (graduated with honors)",
   "October 2015", "Instituto Tecnológico Autónomo de México", "Mexico City, Mexico", "Coursework: Numerical Analysis, Linear Programming, Numerical Optimization, Applied Statistics, Linear Algebra, Real Analysis, Functional Analysis, Measure Theory; Applied Data Science Workshop at Carnegie Mellon University (Fall 2015).",
@@ -42,7 +42,7 @@ tribble(
   "October 2015", "Instituto Tecnológico Autónomo de México", "Mexico City, Mexico", "Adjunct Faculty Member of the Probability and Statistics Department (Spring 2015) and the Mathematics Department (Spring 2013 - Fall 2014).",
   
   "Bachelor of Arts in Economics - Economic Theory", "July 2015. Pending graduation", "", "", "Coursework: Consumer and Producer Theory, General Equilibrium Theory, Game Theory, Dynamic Macroeconomics.",
-
+  
 ) %>%
   detailed_entries(Degree, Year, Institution, Where, Why)
 
@@ -54,13 +54,17 @@ tribble(
 
 tribble(
   ~Project, ~When, ~Institution, ~Space1, ~What,
-
-  "Economic spillover of an important drink manufacturer", "2019", "SAI Law & Economics", "", "Gathered information of sales, employees and supplies purchases by product of 11 companies in 32 states in Mexico. Designed a relational database to store such information. Developed an R package to implement Input-Output methodologies. Delivered through an R Bookdown.",
-
-  "Upgrade of analytics' tools", "2016 - 2019", "", "", "Led and implemented Economic Consulting Team's toolbox migration, from 100% MS Excel usage to 100% R usage, which allowed the firm and the team to take high-profile projects which otherwise wouldn't have took. Actively trained firm's Partners, Junior Associates, and Analysts, in the usage of R Programming Language. Self-taught to programming with R.",
-
+  
+  "Impact assessment of a student loans program to attend graduate school abroad", "2020", "SAI Law & Economics", "", "Designed and coducted an extensive electronic survey among the historical beneficiaries of the program. Managed the data gathering and cleansing process. Conducted the econometric analysis to assess the profiles on which the program had more impact.",
+  
+  "Economic spillover of an important drink manufacturer", "2019", "", "", "Gathered information of sales, employees and supplies purchases by product of 11 companies in 32 states in Mexico. Designed a relational database to store such information. Developed an R package to implement Input-Output methodologies. Delivered through an R Bookdown.",
+  
+  "Impact assessment of a children's meal centers program on their education.", "2018", "", "", "Worked with the program's information and public information from the Mexican Population Census to create control groups through a propensity score matching methodology, and measure the difference in school attendance rates.",
+  
+  "Upgrade of analytics' tools", "2016 - 2019", "", "", "Led and implemented Economic Consulting Team's toolbox migration, from 100% Excel usage to 100% R usage, which allowed the firm and the team to take high-profile projects which otherwise wouldn't have took. Actively trained firm's Partners, Junior Associates, and Analysts, in the usage of R Programming Language. Shifted from Sharepoint to Git as my team's main version control tool. Self-taught to programming with R and to using Git.",
+  
   "Pharmaceutical inventories' optimization - Team Capstone Project", "Summer 2015", "UPMC Enterprises - Carnegie Mellon University", "", "Developed a predictive algorithm with Python to make projections about the drugs needed to be purchased, based on the patients' visits and medical records, which consisted in estimating multivariate distributions to find the optimal quantities in terms of a loss function.",
-
+  
 ) %>%
   detailed_entries(Project, When, Institution, Space1, What)
 
@@ -72,10 +76,11 @@ tribble(
 
 tribble(
   ~Skill, ~Space1, ~Space2, ~Space3, ~What,
-
-  "Programming", "", "", "", "Python, Java, R (package development with devtools), and Git for version control.",
-  "Database management, Statistical Analysis and Data visualization", "", "", "", "R, Python, SQL (MySQL).",
-  "Reproducible documents", "", "", "", "R Markdown, Jupyter, LaTeX. Notions of HTML, CSS, XML.",
+  
+  "Programming Languages and software", "", "", "", "Object-Oriented and Data-Focused Programming: Python, Java, R (including package development).",
+  "Programming Languages and software", "", "", "", "Statistical Analysis: Python, R.",
+  "Programming Languages and software", "", "", "", "Database Management: MySQL and Oracle SQL Developer.",
+  "Reproducible documents and data visualization", "", "", "", "R Markdown, Shiny, Jupyter, LaTeX. Notions of HTML, CSS and XML.",
   
   
 ) %>%
@@ -89,14 +94,14 @@ tribble(
 
 tribble(
   ~Position, ~When, ~Where, ~Institution, ~What,
-
+  
   "Senior Associate", "July 2016 - July 2020", "SAI Law & Economics - Economic Consulting Team","Mexico City, Mexico","Directly managed +50 projects, in charge of their strategic and methodological planning, and their technical execution (Statistical Analysis, Data visualization, Database Design, Economic analysis). Participated in +100 projects for +100 clients. Billed +1.1 Million USD. Coordinated the JA's and BA's team. Senior Associate with the highest tenure in the firm since 2017, and with the shortest period as Junior Associate in firm's history.",
   
   "Junior Associate", "October 2015 - June 2016", "","","Managed +10 projects and participated in +20 projects. Supervised and improved teams' usage of tools and technics for data cleansing and visualization, and statistical and economic analysis. Immediately promoted after graduation.",
   
   "Full-time Economic Analyst", "June 2014 - September 2015", "","","Participated in +30 projects. Pioneered the use of R Programming Language.",
   
-
+  
 ) %>%
   detailed_entries(Position, When, Where, Institution, What)
 
