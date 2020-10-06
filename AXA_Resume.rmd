@@ -77,10 +77,13 @@ tribble(
 tribble(
   ~Skill, ~Space1, ~Space2, ~Space3, ~What,
   
-  "Programming Languages and software", "", "", "", "Object-Oriented and Data-Focused Programming: Python, Java, R (including package development).",
-  "Programming Languages and software", "", "", "", "Statistical Analysis: Python, R.",
-  "Programming Languages and software", "", "", "", "Database Management: MySQL and Oracle SQL Developer.",
-  "Reproducible documents and data visualization", "", "", "", "R Markdown, Shiny, Jupyter, LaTeX. Notions of HTML, CSS and XML.",
+  "Programming Languages", "", "", "", "Object-Oriented and Data-Focused Programming: Java and R (package development).",
+  "Programming Languages", "", "", "", "Statistical Analysis: Python and R.",
+  "Programming Languages", "", "", "", "Database Management: MySQL and Oracle SQL Developer.",
+  "Programming Languages", "", "", "", "Reproducible documents, data visualization and markup languages: R, R Markdown, Shiny, Jupyter, LaTeX. Notions of HTML, CSS and XML.",
+  "Programming Languages", "", "", "", "Version control: Git.",
+  "Programming Languages", "", "", "", "Command-line interaction: Windows PowerShell.",
+  "Other software", "", "", "", "Google Suite (including R packages for interacting with it), Microsoft Office Suite (Core apps).",
   
   
 ) %>%

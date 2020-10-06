@@ -396,7 +396,7 @@
 
 % Others
 \newcommand{\acvSectionTopSkip}{1mm}
-\newcommand{\acvSectionContentTopSkip}{1.2mm}
+\newcommand{\acvSectionContentTopSkip}{0.7mm}
 
 
 %-------------------------------------------------------------------------------
@@ -585,7 +585,7 @@
 % Usage: \cvsubsection{<subsection-title>}
 \renewcommand{\subsection}[1]{%
 	\vspace{\acvSectionContentTopSkip}
-	\vspace{-3mm}
+	\vspace{-4mm}
 	\subsectionstyle{#1}
 	\phantomsection
 }
@@ -597,12 +597,13 @@
   \paragraphstyle
 }{%
   \par
-  \vspace{2mm}
+  \vspace{0.7mm}
 }
 
 % Define an environment for cventry
 \newenvironment{cventries}{%
   \vspace{\acvSectionContentTopSkip}
+  \vspace{-1.5mm}
   \begin{center}
 }{%
   \end{center}
