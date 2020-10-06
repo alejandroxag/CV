@@ -30,10 +30,10 @@ options(tinytex.verbose = TRUE)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where, ~Why,
   
-  "Master of Information Systems Management - Business Intelligence and Data Analytics", "December 2021 (expected)", "Carnegie Mellon University, Heinz College", "Pittsburgh, PA", "Core Coursework (Fall 2020 - Spring 2021): Object-Oriented Programming, Machine Learning for Problem Solving, Distributed Systems for ISM, Database Management, Unstructured Data Analytics, Applied Econometrics, Advanced Business Analytics, Writing for ISM.",
+  "Master of Information Systems Management - Business Intelligence and Data Analytics", "December 2021 (expected)", "Carnegie Mellon University, Heinz College", "Pittsburgh, PA", "Coursework (Fall 2020 - Spring 2021): Object-Oriented Programming, Machine Learning for Problem Solving, Distributed Systems for ISM, Database Management, Unstructured Data Analytics, Applied Econometrics, Advanced Business Analytics, Writing for ISM.",
   
   "Bachelor of Science in Applied Mathematics (graduated with honors)",
-  "October 2015", "Instituto Tecnológico Autónomo de México", "Mexico City, Mexico", "Thesis work: \"Random Variants of the Kaczmarz Method\", 2015. Independent and individual study focused on the theoretical background and computational efficiency behind two of the random variants of the algorithm to numerically solve linear systems.",
+  "October 2015", "Instituto Tecnológico Autónomo de México", "Mexico City, Mexico", "Thesis work: \"Random Variants of the Kaczmarz Method\", 2015. Independent and individual study focused on the theoretical background and computational efficiency behind two of the random variants of this algorithm to numerically solve linear systems.",
   
   "Bachelor of Science in Applied Mathematics (graduated with honors)",
   "October 2015", "Instituto Tecnológico Autónomo de México", "Mexico City, Mexico", "Coursework: Numerical Analysis, Linear Programming, Numerical Optimization, Applied Statistics, Linear Algebra, Real Analysis, Functional Analysis, Measure Theory; Applied Data Science Workshop at Carnegie Mellon University (Fall 2015).",
@@ -77,7 +77,7 @@ tribble(
 tribble(
   ~Skill, ~Space1, ~Space2, ~Space3, ~What,
   
-  "Programming Languages", "", "", "", "Object-Oriented and Data-Focused Programming: Java and R (package development).",
+  "Programming Languages", "", "", "", "Object-Oriented and Data-Focused Programming: Python, Java and R (package development).",
   "Programming Languages", "", "", "", "Statistical Analysis: Python and R.",
   "Programming Languages", "", "", "", "Database Management: MySQL and Oracle SQL Developer.",
   "Programming Languages", "", "", "", "Reproducible documents, data visualization and markup languages: R, R Markdown, Shiny, Jupyter, LaTeX. Notions of HTML, CSS and XML.",
