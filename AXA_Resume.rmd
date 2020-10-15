@@ -77,7 +77,7 @@ tribble(
 tribble(
   ~Skill, ~Space1, ~Space2, ~Space3, ~What,
   
-  "Programming Languages", "", "", "", "Object-Oriented and Data-Focused Programming: Python, Java and R (package development); Statistical Analysis: Python and R; Database Management: MySQL and SQL *Plus; Reproducible documents, data visualization and markup languages: R, R Markdown, Shiny, Jupyter, LaTeX. Notions of HTML, CSS and XML; Version control: Git; Command-line interaction: Windows PowerShell; Other Software: Google Suite (including R packages for interacting with it), Microsoft Office Suite.",
+  "Programming Languages & Software", "", "", "", "Object-Oriented and Data-Focused Programming: Python, Java and R (package development); Statistical Analysis: Python and R; Database Management: MySQL and SQL *Plus; Reproducible documents, data visualization and markup languages: R, R Markdown, Shiny, Jupyter, LaTeX. Notions of HTML, CSS and XML; Version control: Git; Command-line interaction: Windows PowerShell; Other Software: Google Suite (including R packages for interacting with it), Microsoft Office Suite.",
   
   "Online Courses - Coursera (C), DataCamp (D)", "", "", "", "Python: Introduction to Python (D), Intermediate Python (D), Python DS Toolbox 1 & 2 (D); Git: Introduction to Git (D); ML: ML for everyone (D), Machine Learning by Stanford University (C).",
   
