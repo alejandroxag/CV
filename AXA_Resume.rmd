@@ -55,9 +55,9 @@ tribble(
 tribble(
   ~Project, ~When, ~Institution, ~Space1, ~What,
   
-  "Impact assessment of a student loans program to attend graduate school abroad", "2020", "SAI Law & Economics", "", "Designed and conducted an extensive electronic survey. Managed the data gathering and cleansing processes. Conducted the analysis to stratify the sample using unsupervised methods (PCA and Clustering), and the econometric analysis to assess the beneficiaries' profiles on which the program had more impact.",
+  "Impact assessment of a student loans program to attend graduate school abroad", "2020", "SAI Law & Economics", "", "Designed and conducted an extensive electronic survey. Managed the data gathering and cleansing processes. Conducted the process to stratify the sample using unsupervised methods (PCA and Clustering) and supervised the econometric analysis to assess the programs' impact on different beneficiaries' profiles.",
   
-  "Economic spillover of an important drink manufacturer", "2019", "", "", "Gathered information of sales, employees and supplies purchases by product of 11 companies in 32 states in Mexico. Designed a relational database to store such information. Developed an R package to implement Input-Output methodologies. Delivered through an R Bookdown.",
+  "Economic spillover of an important drink manufacturer", "2019", "", "", "Gathered information of sales, employees and supplies purchases by product of 11 companies in 32 states in Mexico. Designed a relational database to store such information. Developed an internal R package to implement Input-Output methodologies. Delivered through an R Bookdown.",
   
   "Impact assessment of a children's meal centers program on their education.", "2018", "", "", "Worked with the program's information and public information from the Mexican Population Census to create control groups through a propensity score matching methodology and measure the difference in school attendance rates.",
   
@@ -84,21 +84,6 @@ tribble(
 ) %>%
   detailed_entries(Skill, Space1, Space2, Space3, What)
 
-# tribble(
-#   ~Skill, ~Space1, ~Space2, ~Space3, ~What,
-#   
-#   "Programming Languages", "", "", "", "Object-Oriented and Data-Focused Programming: Python, Java and R (package development).",
-#   "Programming Languages", "", "", "", "Statistical Analysis: Python and R.",
-#   "Programming Languages", "", "", "", "Database Management: MySQL and Oracle SQL Developer.",
-#   "Programming Languages", "", "", "", "Reproducible documents, data visualization and markup languages: R, R Markdown, Shiny, Jupyter, LaTeX. Notions of HTML, CSS and XML.",
-#   "Programming Languages", "", "", "", "Version control: Git.",
-#   "Programming Languages", "", "", "", "Command-line interaction: Windows PowerShell.",
-#   "Other software", "", "", "", "Google Suite (including R packages for interacting with it), Microsoft Office Suite (Core apps).",
-#   
-#   
-# ) %>%
-#   detailed_entries(Skill, Space1, Space2, Space3, What)
-
 ```
 
 # Experience
@@ -108,7 +93,7 @@ tribble(
 tribble(
   ~Position, ~When, ~Where, ~Institution, ~What,
   
-  "Senior Associate", "July 2016 - July 2020", "SAI Law & Economics - Economic Consulting Team","Mexico City, Mexico","Directly managed +50 projects, in charge of their strategic and methodological planning, and their technical execution (Statistical Analysis, Data visualization, Database Design, Economic analysis). Participated in +100 projects for +100 clients. Billed +1.1 Million USD. Coordinated the JA's and BA's team. Senior Associate with the highest tenure in the firm since 2017, and with the shortest period as Junior Associate in firm's history.",
+  "Senior Associate", "July 2016 - July 2020", "SAI Law & Economics - Economic Consulting Team","Mexico City, Mexico","Directly managed +50 projects, in charge of their strategic and methodological planning, and their technical execution (Statistical Analysis, Data visualization, Database Design, Economic analysis). Participated in +100 projects for +100 clients. Billed +1.1 Million USD. Coordinated the JA's and BA's team. Senior Associate with the highest tenure in the firm since 2017.",
   
   "Junior Associate", "October 2015 - June 2016", "","","Managed +10 projects and participated in +20 projects. Supervised and improved teams' usage of tools and technics for data cleansing and visualization, and statistical and economic analysis. Immediately promoted after graduation.",
   
