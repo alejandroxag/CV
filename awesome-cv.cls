@@ -191,7 +191,7 @@
 %-------------------------------------------------------------------------------
 % Configure styles for each CV elements
 % For fundamental structures
-\newcommand*{\headerfirstnamestyle}[1]{{\fontsize{28pt}{1em}\headerfontlight\color{graytext} #1}} %!!!!!!!!!!!!!!!!!!!!!!!!!! Change to 19pt !!!!!!!!!!!!!!!!!!!!!!!!!!!
+\newcommand*{\headerfirstnamestyle}[1]{{\fontsize{33pt}{1em}\headerfontlight\color{graytext} #1}} %!!!!!!!!!!!!!!!!!!!!!!!!!! Change !!!!!!!!!!!!!!!!!!!!!!!!!!!
 \newcommand*{\headerlastnamestyle}[1]{{\fontsize{28pt}{1em}\headerfont\bfseries\color{text} #1}}
 \newcommand*{\headerpositionstyle}[1]{{\fontsize{7.6pt}{1em}\bodyfont\scshape\color{awesome} #1}}
 \newcommand*{\headeraddressstyle}[1]{{\fontsize{8pt}{1em}\headerfont\itshape\color{lighttext} #1}}
@@ -575,7 +575,7 @@
 
 \renewcommand{\section}[1]{%
 	\vspace{\acvSectionTopSkip}
-  \vspace{-1.5mm} %!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! RESTORE TO -2MM !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  \vspace{-1mm} %!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! RESTORE TO -2MM !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	\sectionstyle{#1}
 	\phantomsection
 	\color{gray}\vhrulefill{0.9pt}
@@ -603,7 +603,7 @@
 % Define an environment for cventry
 \newenvironment{cventries}{%
   \vspace{\acvSectionContentTopSkip}
-  %\vspace{-1.5mm} !!!!!!!!!!!!!!!!!!!!!!!!!! UNCOMMENT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  %\vspace{-1.5mm} %!!!!!!!!!!!!!!!!!!!!!!!!!! UNCOMMENT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   \begin{center}
 }{%
   \end{center}

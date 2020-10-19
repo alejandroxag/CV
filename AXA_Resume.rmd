@@ -55,15 +55,17 @@ tribble(
 tribble(
   ~Project, ~When, ~Institution, ~Space1, ~What,
   
-  "Impact assessment of a student loans program to attend graduate school abroad (FUNED)", "2020", "SAI Law & Economics", "", "Designed and conducted an extensive electronic survey. Managed the data gathering and cleansing processes. Conducted the process to stratify the sample using unsupervised methods (PCA and clustering) and supervised the econometric analysis to assess the programs’ impact on different beneficiaries’ profiles.",
+  "Impact assessment of a student loans program to attend graduate school abroad (FUNED) @ SAI Law & Economics", "2020", "", "", "Designed and conducted an extensive electronic survey. Managed the data gathering and cleansing processes. Conducted the process to stratify the sample using unsupervised methods (PCA and clustering) and supervised the econometric analysis to assess the programs’ impact on different beneficiaries’ profiles.",
   
-  "Economic spillover of an important drink manufacturer", "2019", "", "", "Gathered product-level information on sales, employees, and supplies purchases of 11 companies in 32 states in Mexico. Designed a relational database to store such information. Developed an internal R package to implement Input‑Output methodologies. Delivered through an R Bookdown.",
+  "Economic spillover of an important drink manufacturer @ SAI Law & Economics", "2019", "", "", "Gathered product-level information on sales, employees, and supplies purchases of 11 companies in 32 states in Mexico. Designed a relational database to store such information. Developed an internal R package to implement Input‑Output methodologies. Delivered through an R Bookdown.",
   
-  "Impact assessment of a children's meal centers program (Comedor Santa María A.C.) on their education", "2018", "", "", "Worked with the program's information and public information from the Mexican Population Census to create control groups through a propensity score matching methodology and measure the difference in school attendance rates.",
+  "Impact assessment of a children's meal centers program (Comedor Santa María A.C.) on their education @ SAI Law & Economics", "2018", "", "", "Worked with the program's information and public information from the Mexican Population Census to create control groups through a propensity score matching methodology and measure the difference in school attendance rates.",
   
-  "Upgrade of analytics' tools", "2016 - 2019", "", "", "Led and implemented Economic Consulting Team’s toolbox migration, from 100% Excelusage to 100% R usage. Actively trained firm’s Partners, JuniorAssociates, and Analysts, in the usage of R Programming Language. Established Git as my team’s version control tool. Self‑taught to programming with R and using Git.",
+  "Upgrade of analytics' tools @ SAI Law & Economics", "2016 - 2019", "", "", "Led and implemented Economic Consulting Team’s toolbox migration, from 100% Excelusage to 100% R usage. Actively trained firm’s Partners, JuniorAssociates, and Analysts, in the usage of R Programming Language. Established Git as my team’s version control tool. Self‑taught to programming with R and using Git.",
   
-  "Pharmaceutical inventories' optimization - Team Capstone Project", "Summer 2015", "UPMC Enterprises - Carnegie Mellon University", "", "Developed a predictive algorithm with Python to make projections about the drugs needed to be purchased, based on the patients’ visits and medical records, which consisted of estimating multivariate distributions to find the optimal quantities in terms of a loss function.",
+  "Pharmaceutical inventories' optimization - Team Capstone Project @ UPMC Enterprises - Carnegie Mellon University", "Summer 2015", "", "", "Developed a predictive algorithm with Python to make projections about the drugs needed to be purchased, based on the patients’ visits and medical records, which consisted of estimating multivariate distributions to find the optimal quantities in terms of a loss function.",
+  
+  "R package to scrape the Mexican President press conferences @ github.com/alejandroxag/amloconf (Personal Pet Project)", "October 2020", "", "", "Developed an R package to retrieve the stenographic versions of the Mexican President's conferences in dialog-formatted lists, for text mining or sentiment analysis.",
   
 ) %>%
   detailed_entries(Project, When, Institution, Space1, What)
@@ -93,9 +95,9 @@ tribble(
 tribble(
   ~Position, ~When, ~Where, ~Institution, ~What,
   
-  "Senior Associate", "July 2016 - July 2020", "SAI Law & Economics - Economic Consulting Team","Mexico City, Mexico","Directly managed +50 projects, in charge of their strategic and methodological planning, and their technical execution (Statistical Analysis, Data visualization, Database Design, Economic analysis). Participated in +100 projects for +100 clients. Billed +1.1 Million USD. Coordinated the JA's and BA's team. Senior Associate with the highest tenure in the firm since 2017.",
+  "Senior Associate", "July 2016 - July 2020", "SAI Law & Economics - Economic Consulting Team","Mexico City, Mexico","Managed +50 projects, in charge of their strategic and methodological planning, and execution (Statistical Analysis, Data visualization, Database Design, Economic analysis). Participated in +100 projects for +100 clients. Billed +1.1 Million USD. Coordinated the JA's and BA's team.",
   
-  "Junior Associate", "October 2015 - June 2016", "","","Managed +10 projects and participated in +20 projects. Supervised and improved teams' usage of tools and technics for data cleansing and visualization, and statistical and economic analysis. Immediately promoted after graduation.",
+  "Junior Associate", "October 2015 - June 2016", "","","Managed +10 projects and participated in +20 projects. Supervised and improved teams' usage of technical and analytical tools.",
   
   "Full-time Economic Analyst", "June 2014 - September 2015", "","","Participated in +30 projects. Pioneered the use of R Programming Language.",
   
