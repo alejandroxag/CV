@@ -117,6 +117,7 @@
 \fancyhf{}
 % Enable if you want to make header or footer using fancyhdr
 \pagestyle{fancy}
+\pagenumbering{gobble}
 
 
 %-------------------------------------------------------------------------------

@@ -1,13 +1,13 @@
 ---
 name: Alejandro
 surname: Álvarez
+date: "`r format(Sys.time(), '%B %d, %Y')`"
 # position: 
 # address: 
 phone: +1 412 509 7161
 email: "axa@andrew.cmu.edu"
 github: /alejandroxag
 linkedin: /alejandroxag
-date: 
 # aboutme: "\"There is a crack in everything, that's how the light gets in\". Leonard Cohen. \"Anthem\". The Future, 1992."
 headcolor: 117c8d
 docname: résumé
