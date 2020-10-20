@@ -39,7 +39,7 @@ tribble(
   "October 2015", "Instituto Tecnológico Autónomo de México", "Mexico City, Mexico", "Coursework: Numerical Analysis, Linear Programming, Numerical Optimization, Applied Statistics, Linear Algebra, Real Analysis, Functional Analysis, Measure Theory; Applied Data Science Workshop at Carnegie Mellon University (Fall 2015).",
   
   "Bachelor of Science in Applied Mathematics (graduated with honors)",
-  "October 2015", "Instituto Tecnológico Autónomo de México", "Mexico City, Mexico", "Adjunct Faculty Member of the Probability and Statistics Department (Spring 2015) and the Mathematics Department (Spring 2013 - Fall 2014).",
+  "October 2015", "Instituto Tecnológico Autónomo de México", "Mexico City, Mexico", "Adjunct Faculty Member of the Probability and Statistics Department (Spring 2015) and the Mathematics Department (Fall 2013 - Fall 2014).",
   
   "Bachelor of Arts in Economics - Economic Theory", "July 2015. Pending graduation", "", "", "Coursework: Advanced Microeconometrics, Advanced Macroeconometrics, Consumer Theory, General Equilibrium Theory, Game Theory.",
   
