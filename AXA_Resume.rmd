@@ -65,7 +65,7 @@ tribble(
   
   "Pharmaceutical inventories' optimization - Team Capstone Project @ UPMC Enterprises - Carnegie Mellon University", "Summer 2015", "", "", "Developed a predictive algorithm with Python to make projections about the drugs needed to be purchased, based on the patients’ visits and medical records, which consisted of estimating multivariate distributions to find the optimal quantities in terms of a loss function.",
   
-  "R package to scrape the Mexican President press conferences @ github.com/alejandroxag/amloconf (Personal Pet Project)", "October 2020", "", "", "Developed an R package to retrieve the stenographic versions of the Mexican President's conferences in dialog-formatted lists, for text mining or sentiment analysis.",
+  "R package to scrape the Mexican President press conferences @ github.com/alejandroxag/amloconf (Personal Pet Project)", "October 2020", "", "", "Developed an R package to web scrape the stenographic versions of the Mexican President's conferences, for text mining or sentiment analysis.",
   
 ) %>%
   detailed_entries(Project, When, Institution, Space1, What)
